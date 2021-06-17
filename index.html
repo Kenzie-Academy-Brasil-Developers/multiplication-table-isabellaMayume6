@@ -11,13 +11,17 @@
         // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
         // escreve a coluna inicial
         let x = [];
+        
         for (let i = 0; i <= n; i++) {
-          x[i] = i
+          x[i] = []
+          for(let z=0; z<=n; z++){
+            x[i][z]= i*z
 
+          }
         }
         console.table(x);
         // TODO: escrever dois loops aninhados para desenhar o array bidimencional e monstar o restante da tabela no console.
-      }
+      }tabelamulti(10)
     </script>
   </body>
 </html>
